@@ -1,0 +1,131 @@
+@font-face {
+  font-family: CornerStone;
+  src: url(Fonts/Cornerstone.ttf);}
+@font-face {
+  font-family: POTRA;
+  src: url(Fonts/POTRA.ttf);}
+  body {
+	  background-image: url(Images/04.jpg);
+    background-size: cover;
+  }
+  /*Todo lo que tenga que ver con la lista de materias*/
+#dd{font-family:CornerStone;
+  margin-left:50px;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+text-align: center;
+display:inline-block;
+font-size: 17px;
+color:white;
+background-image: linear-gradient(#FFA500, #FFA500);
+    background-position: 0% 110%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+list-style-type: none;}
+#dd:hover, #dd:focus {background-size: 100% 27px;}
+#aa{font-family:CornerStone;
+  margin-left:50px;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+text-align: center;
+display:inline-block;
+font-size: 17px;
+color:white;
+background-image: linear-gradient(#00FA9A	, #00FA9A);
+    background-position: 0% 110%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+list-style-type: none;}
+#aa:hover, #aa:focus {background-size: 100% 27px;}
+#bb{font-family:CornerStone;
+  margin-left:50px;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+text-align: center;
+display:inline-block;
+font-size: 17px;
+color:white;
+background-image: linear-gradient(#FF1493, #FF1493);
+    background-position: 0% 110%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+list-style-type: none;}
+#bb:hover, #bb:focus {background-size: 100% 27px;}
+.Oixum {font-family: Potra;
+        color: white;
+	      float:left;
+	      font-size: 50px;}
+@-webkit-keyframes border {
+     from {width: 0px;}
+     to {width:100%}}
+.Oixum:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  background: white;
+  -webkit-animation-name: border; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+  animation-name: border;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;}
+.navbar {
+  overflow: hidden;
+ padding-left: 310px;
+  background-color: #transparent;}
+.navbar a {
+  float: left;
+  font-family: CornerStone;
+  font-size: 16px;
+  color: white;
+  background-color: transparent;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;}
+.dropdown {
+  float: left;
+  font-family: CornerStone;
+  overflow: hidden;}
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  font-family: CornerStone;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: transparent;
+  margin: 0; }
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+  font-family: CornerStone;
+  color:black;}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;}
+.dropdown-content a {
+  float: none;
+  color: black;
+  font-family: CornerStone;
+  background-color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;}
+.dropdown-content a:hover {
+  background-color: white;
+  color: black;}
+.dropdown:hover .dropdown-content {
+  display: block;}
