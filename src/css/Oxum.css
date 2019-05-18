@@ -1,0 +1,115 @@
+ @font-face {
+  font-family: CornerStone;
+  src: url(Fonts/Cornerstone.ttf);}
+@font-face {
+  font-family: POTRA;
+  src: url(Fonts/POTRA.ttf);}
+  @font-face{ font-family: Potra;
+scr: url(Fonts/Potra.ttf);}
+ body{
+    background-size: cover;}
+/*Todo lo referido a la barra de navegacion*/
+h1{ font-family: POTRA;
+     font-size: 30px;
+     margin-top: 2em;
+     transition: transform 1s;
+     background-size: 0% 2px;
+     margin: 0 auto;
+     color: white;
+     text-decoration: none;
+     letter-spacing: 0.15em;
+     display: inline-block;
+     position: relative;}
+h1:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 60%;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;}
+h1:hover:after {
+  width: 100%;
+  left: 0;
+  -ms-transform: scale(1.2);
+     -webkit-transform: scale(1.2);
+     transform: scale(1.2);}
+/*Alumno, Profesor*/
+.row,
+.row > .column {
+    padding-left: 13em;}
+/* Crea dos columnas iguales una al lado de la otra */
+.column {
+    float: left;
+    width: 25%;
+  text-align: center;}
+/* Libera floats despues de filas */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;}
+/* Contenido */
+.content {
+    padding: 10px;}
+/* La clase "show" es agregada a los elementos filtrados */
+.show {
+    display: block;}
+.container {
+    position: relative;
+    width: 50%;}
+.image {
+	padding-top: 0.9375em;
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;}
+.middle2 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);}
+.container:hover .image {
+  opacity: 0.3;}
+.container:hover .middle2 {
+opacity: 1;}
+.text {
+  font-size: 1.25em;
+  font-family: 'Comfortaa', cursive;
+padding-left: 2.7em;
+text-decoration: none;
+color: white;}
+.zoom {
+    transition: transform 1s;
+    margin: 0 auto;}
+.zoom:hover {
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05); }
+.bienvenidos {
+  color: white;
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+  font-family: 'Acme', sans-serif;
+  margin-top: 1em;
+}
+.text:hover {
+  font-size: 1.25em;
+  font-family: 'Comfortaa', cursive;
+padding-left: 2.7em;
+text-decoration: none;
+color:#ff0083;
+}
+.carrusel {
+  margin-left: 8em;
+  margin-right: 8em;
+  margin-top: 4em;
+}
+.alerta {
+  margin: 4em;
+  font-family: 'Jura', sans-serif;
+
+}
