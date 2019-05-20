@@ -9,14 +9,14 @@ body{
 
 
 
-header{
+.container{
 	margin:-20px auto;
 	width:800px;
 	height:230px;
 	background-color: red;
 }
 
-div.contenedor{
+div.col-md-3{
 	width: 200px;
 	height: 230px;
 	float:left;
@@ -65,15 +65,15 @@ text-align: center;
 	-webkit-transition: padding-top .4s;
 }
 
-div.contenedor:hover{
+div.col-md-3:hover{
 	height:290px;
 }
 
-div.contenedor:hover p.texto{
+div.col-md-3:hover p.texto{
 	padding-top: 30px;
 	opacity: 1;
 }
 
-div.contenedor:hover img.icon{
+div.col-md-3:hover img.icon{
 	-webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
 }
