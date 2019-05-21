@@ -1,0 +1,12 @@
+#wrapper {width:750px;margin:0 auto; }
+.card { float:left;
+  margin-left: 8rem;
+margin-top: 2rem;
+margin-bottom: 30rem;}
+.titulo{
+font-family: 'Prompt', sans-serif;
+}
+a:hover {
+text-decoration: none;
+
+}

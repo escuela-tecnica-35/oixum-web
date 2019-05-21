@@ -95,6 +95,7 @@ color: white;}
   text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
   font-family: 'Acme', sans-serif;
   margin-top: 1em;
+  font-size: 2em;
 }
 .text:hover {
   font-size: 1.25em;
@@ -107,6 +108,7 @@ color:#ff0083;
   margin-left: 8em;
   margin-right: 8em;
   margin-top: 4em;
+  margin-bottom: 4em;
 }
 .alerta {
   margin: 4em;

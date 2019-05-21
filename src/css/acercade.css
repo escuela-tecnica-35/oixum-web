@@ -1,0 +1,27 @@
+.titulo {
+  font-size: 3em;
+}
+.infoJuego {
+  font-size: 1.5em;
+  margin: 1em;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.textoNombre {
+  font-size: 2em;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+.quienesSomos {
+    margin-top: 2em;
+    width: 450px;
+    padding: 10px 20px;
+    background: rgba(124, 9, 239, 0.9);
+    border-radius: 2em;
+    color: white;
+}
+.respuesta {
+  padding: 2em;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
