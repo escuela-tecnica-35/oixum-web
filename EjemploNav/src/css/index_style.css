@@ -13,7 +13,7 @@ body{
 	margin:-20px auto;
 	width:800px;
 	height:230px;
-	background-color: red;
+	background-color:white;
 }
 
 div.col-md-3{
@@ -24,34 +24,31 @@ div.col-md-3{
 }
 
 div#uno{
-	background-color: rgb(208,101,3);
+	background-color: rgb(233,147,26);
 }
 
 div#dos{
-	background-color: rgb(233,147,26);
+	background-color: #EB4540;
 }
 
 
 
 div#cuatro{
-	background-color: rgb(22,107,162);
+	background-color:#7112FF;
 }
 
 div#cinco{
-	background-color: rgb(27,54,71);
+	background-color: #5AB8EB;
 }
 
-div#seis{
-	background-color: rgb(21,40,54);
-}
 
-img.icon{
+.icon{
 	display: block;
-	margin:50px auto;
+	margin:30px auto;
 	background-color: rgba(255,255,255,.15);
-	width:40px;
+	width:50px;
 	padding:20px;
-	-webkit-border-radius: 50%;
+	-webkit-border-radius: 40%;
 	-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
 	-webkit-transition:box-shadow .4s;
 }
@@ -63,6 +60,8 @@ text-align: center;
 	padding-top:10px;
 	opacity: .6;
 	-webkit-transition: padding-top .4s;
+	font-family: 'PT Sans', sans-serif;
+
 }
 
 div.col-md-3:hover{
