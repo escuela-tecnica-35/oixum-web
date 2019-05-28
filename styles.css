@@ -251,3 +251,19 @@ padding-left: 310px;
      transform: scale(1.05); }
  .fasfa-graduation-cap{ background-color=blue;
  size=500px;}
+ .btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+a, a:visited, a:link {
+  text-decoration: none;
+  color: white;
+}
