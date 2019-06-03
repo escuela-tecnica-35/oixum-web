@@ -267,3 +267,12 @@ a, a:visited, a:link {
   text-decoration: none;
   color: white;
 }
+p{
+text-align: center;
+color: white;
+font-family: sans-serif;
+}
+.descripcion{
+	margin-right: 12em;
+  margin-left: 12em;
+}
