@@ -10,10 +10,11 @@ body{
 
 
 .container{
-	margin:-20px auto;
-	width:800px;
+	margin:-10px auto;
+	width:1000px;
 	height:230px;
 	background-color:white;
+	padding-left:16	0px;
 }
 
 div.col-md-3{
@@ -24,21 +25,25 @@ div.col-md-3{
 }
 
 div#uno{
-	background-color: rgb(233,147,26);
+	background-color:#4269FF;
+
 }
 
 div#dos{
-	background-color: #EB4540;
+	background-color:#4269FF;
+
 }
 
 
 
 div#cuatro{
-	background-color:#7112FF;
+	background-color:#4269FF;
+
 }
 
 div#cinco{
-	background-color: #5AB8EB;
+
+	background-color: #4269FF;
 }
 
 
@@ -66,6 +71,7 @@ text-align: center;
 
 div.col-md-3:hover{
 	height:290px;
+	border-bottom: 5px solid black;
 }
 
 div.col-md-3:hover p.texto{
@@ -85,13 +91,13 @@ div.col-md-3:hover img.icon{
   cursor: pointer;
 }
 
-/* The container <div> - needed to position the dropdown content */
+
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -101,7 +107,7 @@ div.col-md-3:hover img.icon{
   z-index: 1;
 }
 
-/* Links inside the dropdown */
+
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -109,15 +115,15 @@ div.col-md-3:hover img.icon{
   display: block;
 }
 
-/* Change color of dropdown links on hover */
+
 .dropdown-content a:hover {background-color: #f1f1f1}
 
-/* Show the dropdown menu on hover */
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
+
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
